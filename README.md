@@ -98,7 +98,7 @@ By Default:
 
 - AutoScroll is premounted and enabled.
 - OnSpill is premounted and NOT enabled.
-- MultiDrag and Swap and NOT premounted and NOT enabled
+- MultiDrag and Swap are NOT premounted and NOT enabled
 
 You must mount the plugin with sortable **ONCE ONLY**.
 
@@ -295,7 +295,7 @@ Basically, the child updates the state twice. I'm working on this.
 
 #### What does work?
 
-Our usage indicates that as long as we only move items between lists that don't use the same `setState` function.
+Our usage indicates that things work fine as long as we only move items between lists that don't use the same `setState` function.
 
 I hope to provide an example soon.
 
